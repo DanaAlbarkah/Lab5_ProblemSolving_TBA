@@ -8,7 +8,7 @@ int VowelFreq(char sentence[], char vowel);
 int main() {
     char sentence[100];
 
-    printf("Enter a sentence (without spaces): ");
+    printf("Enter a sentence : ");
     scanf("%[^\n]", sentence);  
 
     int length = StringLength(sentence);
